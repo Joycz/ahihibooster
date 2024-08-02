@@ -54,7 +54,7 @@ if not _G.Settings then
             Destroy = false
         },
         Other = {
-            ["FPS Cap"] = 240, -- Set this true to uncap FPS
+            ["FPS Cap"] = 20, -- Set this true to uncap FPS
             ["No Camera Effects"] = true,
             ["No Clothes"] = true,
             ["Low Water Graphics"] = true,
@@ -307,7 +307,7 @@ end)
 coroutine.wrap(pcall)(function()
     if _G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"]) then
         if setfpscap then
-            setfpscap(240)
+            setfpscap(20)
         else
             warn("Your exploit does not support setfpscap.")
         end
