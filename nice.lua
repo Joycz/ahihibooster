@@ -24,8 +24,8 @@ if not _G.Settings then
             ["Ignore Tools"] = true
         },
         Meshes = {
-            NoMesh = false,
-            NoTexture = false,
+            NoMesh = true,
+            NoTexture = true,
             Destroy = false
         },
         Images = {
@@ -42,15 +42,15 @@ if not _G.Settings then
             Destroy = false
         },
         TextLabels = {
-            LowerQuality = false,
-            Invisible = false,
+            LowerQuality = true,
+            Invisible = true,
             Destroy = false
         },
         MeshParts = {
             LowerQuality = true,
             Invisible = false,
-            NoTexture = false,
-            NoMesh = false,
+            NoTexture = true,
+            NoMesh = true,
             Destroy = false
         },
         Other = {
