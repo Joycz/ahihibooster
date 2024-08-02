@@ -1,4 +1,4 @@
--- Made by RIP#6666
+wait(25)
 _G.Settings = {
     Players = {
         ["Ignore Me"] = true, -- Ignore your Character
