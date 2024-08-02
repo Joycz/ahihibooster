@@ -26,7 +26,7 @@ if not _G.Settings then
         Meshes = {
             NoMesh = true,
             NoTexture = true,
-            Destroy = false
+            Destroy = true
         },
         Images = {
             Invisible = true,
@@ -39,7 +39,7 @@ if not _G.Settings then
         },
         Particles = {
             Invisible = true,
-            Destroy = false
+            Destroy = true
         },
         TextLabels = {
             LowerQuality = true,
@@ -48,10 +48,10 @@ if not _G.Settings then
         },
         MeshParts = {
             LowerQuality = true,
-            Invisible = false,
+            Invisible = true,
             NoTexture = true,
             NoMesh = true,
-            Destroy = false
+            Destroy = true
         },
         Other = {
             ["FPS Cap"] = 20, -- Set this true to uncap FPS
